@@ -23,6 +23,7 @@ nav a {
 
 h1 {
     color: darkblue;
+    padding: .5rem;
 }
 
 img {
@@ -52,14 +53,16 @@ aside {
 /*    background-color: #eee; */
 /*    color: #333; */
     text-align: var(--text-align);
+    position: relative;
 /*    text-align: center; */
 }
 
 aside h2 {
     position: absolute;
-    top: 47px;
+    top: 67px;
     left: 150px;
-}
+} 
+
 aside img {
     width: 200px;
     height: var(--height);
@@ -70,6 +73,7 @@ main img {
     width: 150px;
     height: var(--height);
     float: right;
+    margin: 0 0 1rem 1rem;
 /*    height: auto; */
 }
 
@@ -87,4 +91,9 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+    clear: both;
+}
+
+.indent {
+    padding-left: 2rem;
 }
